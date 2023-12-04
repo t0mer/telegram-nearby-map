@@ -6,6 +6,9 @@ var config = {}
 config.telegramApiId = 123456789;
 config.telegramApiHash = '';
 
+// set location
+config.lat = ;
+config.lon = ;
 
 // server settings
 config.hostname = '127.0.0.1';
