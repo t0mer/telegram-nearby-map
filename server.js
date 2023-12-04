@@ -14,7 +14,7 @@ if (
     throw 'Missing configuration...';
 }
 
-const tg = new TelegramNearby(config.telegramApiId, config.telegramApiHash, config.lat, config.lon);
+const tg = new TelegramNearby(config.telegramApiId, config.telegramApiHash);
 const app = express();
 
 app.use(addRequestId);
